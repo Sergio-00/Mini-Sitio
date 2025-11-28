@@ -18,7 +18,7 @@ function calcularTotal() {
   const cards = document.querySelectorAll(".card p");
   let suma = 0;
   cards.forEach((c) => {
-    suma += parseInt(c.textContent.replace("Precio: $", ""));
+    suma += parseInt(c.textContent.replace("Precio: $", "")) || 0;
   });
   return suma;
 }

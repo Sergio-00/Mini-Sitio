@@ -12,7 +12,8 @@ body {
 }
 
 #total {
-  margin-top: 20px;
+  margin-top: 30px;
   font-weight: bold;
-  color: green;
+  color: darkgreen;
+  font-size: 1.2em;
 }
