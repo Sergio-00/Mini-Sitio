@@ -6,4 +6,14 @@ body {
 
 .card {
   padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#total {
+  margin-top: 30px;
+  font-weight: bold;
+  color: darkgreen;
+  font-size: 1.2em;
 }
